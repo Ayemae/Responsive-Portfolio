@@ -1,11 +1,39 @@
-@media only screen and (max-width: 980px) {
-
+@media screen and (max-width: 980px) {
+    .content_size {
+        width: 90%;
+        padding: inherit 0;
+        margin: inherit auto;
+    }
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .title,
+    .menu,
+    .content_size {
+        float: none;
+        width: 100%;
+        padding: inherit 0;
+        margin: inherit auto;
+    }
 
+    .header {
+        padding-bottom: 10px;
+    }
+    .menu {
+        text-align: center;
+    }
 }
 
-@media only screen and (max-width: 640px) {
-
+@media screen and (max-width: 640px) {
+    img.about {
+        display: block;
+        float: none;
+        width: 80%;
+        margin: 15px auto;
+    }
+    .portfolio_item {
+        display: block;
+        margin: 10px auto;
+        float: none;
+    }
 }
